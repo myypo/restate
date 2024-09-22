@@ -135,7 +135,7 @@ once_cell = "1.18"
 opentelemetry = { version = "0.24.0" }
 opentelemetry-http = { version = "0.13.0" }
 opentelemetry_sdk = { version = "0.24.0" }
-parking_lot = { version = "0.12" }
+parking_lot = { version = "0.12", features = ["arc_lock", "send_guard"] }
 paste = "1.0"
 pin-project = "1.0"
 prost = { version = "0.13.1" }
